@@ -1,19 +1,19 @@
-# @babel/helper-annotate-as-pure
+# @babel/helper-compilation-targets
 
-> Helper function to annotate paths and nodes with #__PURE__ comment
+> Helper functions on Babel compilation targets
 
-See our website [@babel/helper-annotate-as-pure](https://babeljs.io/docs/en/babel-helper-annotate-as-pure) for more information.
+See our website [@babel/helper-compilation-targets](https://babeljs.io/docs/en/babel-helper-compilation-targets) for more information.
 
 ## Install
 
 Using npm:
 
 ```sh
-npm install --save @babel/helper-annotate-as-pure
+npm install --save @babel/helper-compilation-targets
 ```
 
 or using yarn:
 
 ```sh
-yarn add @babel/helper-annotate-as-pure
+yarn add @babel/helper-compilation-targets
 ```
