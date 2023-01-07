@@ -1,19 +1,19 @@
-# @babel/helper-create-regexp-features-plugin
+# @babel/helper-environment-visitor
 
-> Compile ESNext Regular Expressions to ES5
+> Helper visitor to only visit nodes in the current 'this' context
 
-See our website [@babel/helper-create-regexp-features-plugin](https://babeljs.io/docs/en/babel-helper-create-regexp-features-plugin) for more information.
+See our website [@babel/helper-environment-visitor](https://babeljs.io/docs/en/babel-helper-environment-visitor) for more information.
 
 ## Install
 
 Using npm:
 
 ```sh
-npm install --save @babel/helper-create-regexp-features-plugin
+npm install --save-dev @babel/helper-environment-visitor
 ```
 
 or using yarn:
 
 ```sh
-yarn add @babel/helper-create-regexp-features-plugin
+yarn add @babel/helper-environment-visitor --dev
 ```
