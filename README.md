@@ -1,19 +1,19 @@
-# @babel/helper-compilation-targets
+# @babel/helper-create-regexp-features-plugin
 
-> Helper functions on Babel compilation targets
+> Compile ESNext Regular Expressions to ES5
 
-See our website [@babel/helper-compilation-targets](https://babeljs.io/docs/en/babel-helper-compilation-targets) for more information.
+See our website [@babel/helper-create-regexp-features-plugin](https://babeljs.io/docs/en/babel-helper-create-regexp-features-plugin) for more information.
 
 ## Install
 
 Using npm:
 
 ```sh
-npm install --save @babel/helper-compilation-targets
+npm install --save @babel/helper-create-regexp-features-plugin
 ```
 
 or using yarn:
 
 ```sh
-yarn add @babel/helper-compilation-targets
+yarn add @babel/helper-create-regexp-features-plugin
 ```
