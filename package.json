@@ -1,29 +1,27 @@
 {
-  "name": "@babel/helper-environment-visitor",
-  "version": "7.18.9",
-  "description": "Helper visitor to only visit nodes in the current 'this' context",
+  "name": "@babel/helper-member-expression-to-functions",
+  "version": "7.20.7",
+  "description": "Helper function to replace certain member expressions with function calls",
   "repository": {
     "type": "git",
     "url": "https://github.com/babel/babel.git",
-    "directory": "packages/babel-helper-environment-visitor"
+    "directory": "packages/babel-helper-member-expression-to-functions"
   },
-  "homepage": "https://babel.dev/docs/en/next/babel-helper-environment-visitor",
+  "homepage": "https://babel.dev/docs/en/next/babel-helper-member-expression-to-functions",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
   "main": "./lib/index.js",
-  "exports": {
-    ".": "./lib/index.js",
-    "./package.json": "./package.json"
+  "author": "The Babel Team (https://babel.dev/team)",
+  "dependencies": {
+    "@babel/types": "^7.20.7"
   },
   "devDependencies": {
-    "@babel/traverse": "^7.18.9",
-    "@babel/types": "^7.18.9"
+    "@babel/traverse": "^7.20.7"
   },
   "engines": {
     "node": ">=6.9.0"
   },
-  "author": "The Babel Team (https://babel.dev/team)",
   "type": "commonjs"
 }
