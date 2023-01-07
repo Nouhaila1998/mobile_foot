@@ -1,19 +1,19 @@
-# @babel/helper-optimise-call-expression
+# @babel/helper-skip-transparent-expression-wrappers
 
-> Helper function to optimise call expression
+> Helper which skips types and parentheses
 
-See our website [@babel/helper-optimise-call-expression](https://babeljs.io/docs/en/babel-helper-optimise-call-expression) for more information.
+See our website [@babel/helper-skip-transparent-expression-wrappers](https://babeljs.io/docs/en/babel-helper-skip-transparent-expression-wrappers) for more information.
 
 ## Install
 
 Using npm:
 
 ```sh
-npm install --save @babel/helper-optimise-call-expression
+npm install --save @babel/helper-skip-transparent-expression-wrappers
 ```
 
 or using yarn:
 
 ```sh
-yarn add @babel/helper-optimise-call-expression
+yarn add @babel/helper-skip-transparent-expression-wrappers
 ```
